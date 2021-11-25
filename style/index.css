@@ -1,20 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Herr+Von+Muellerhoff&family=Lobster&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Yesteryear&display=swap');
 
 
-
-
-.header{
-    background-image: url("../assets/images/clouds.png");
+section.intro{
+    margin-top: 0px;
+    background:url(../assets/images/clouds.png) repeat-x top center;
+}
+.words-wrapper{
+    display: none;
 }
 
 
 
+.words-wrapper::content{
+    color: whitesmoke;
+}
 
 
+.intro{
+}
+.cd-intro{
+    text-align: center;
+    
+}
+h1{
+    display: inline-block;
+}
 .title{
+    color: white;
     font-family: 'Sacramento';
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 3.0em;
+    
 }
 
 .right{
