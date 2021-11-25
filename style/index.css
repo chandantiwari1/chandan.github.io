@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Herr+Von+Muellerhoff&family=Lobster&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Yesteryear&display=swap');
+
+
+
+
+.header{
+    background-image: url("../assets/images/clouds.png");
+}
+
+
+
+
+
+.title{
+    font-family: 'Sacramento';
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.right{
+   
+align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between
+}
