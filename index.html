@@ -1,280 +1,366 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--
+
+
+	hello there is the chandan tiwari 
+-->
+<!doctype html>
+<html class="no-js" lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-		integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<meta name="chandan tiwari" description="Hey there chandan tiwari BTECH CSE student I am enthuast to learn javascript.">
-	<link rel="stylesheet" href="./style/index.css" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Caveat&family=Herr+Von+Muellerhoff&family=Lobster&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Sacramento&family=Yesteryear&display=swap"
-		rel="stylesheet">
-
-	<title>Chandan Tiwari</title>
-	<link rel="icon" href="./assets/images/chandan.jpg">
+  <meta charset="utf-8" />
+  <meta name="google-site-verification" content="CCdRdGi4mcQEMv_Q4-K8uQwAU59lbJEycK-zBCBX4q0" />
+  <meta name="description"
+    content="Hello World, I'm a Web developer, YouTuber, and a Digital Marketer. If you want your own website or grow your business online then coffee with me.">
+  <meta name="keywords"
+    content="web development, web designing, youtube, javascript, tutorials, react, angular, website, seo, digital marketing, social media marketing, freelancer, bengaluru, india ">
+  <meta name="author" content="Chandan Tiwari">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Chandan Tiwari " />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:image" content="logo.png" />
+  <meta property="og:site_name" content="Chandan tiwari" />
+  <meta property="og:description"
+    content="Hello World, I'm a Web developer, YouTuber, and a Digital Marketer. If you want your own website or grow your business online then coffee with me." />
+  <title>Chandan Tiwari</title>
+  <link rel="icon" href="./assets/images/chandan.jpg">
+  <link rel="stylesheet" href="./style/foundation.css" />
+  <script src="./javascript/modernizr.custom.js"></script>
+  <link rel="stylesheet" href="./style/index.css" />
+  <link rel="stylesheet" href="./style/font.css" />
+  <link rel="stylesheet" href="./style/animate.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./style/icon.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+  <link rel="stylesheet" href="font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./style/component.css" />
+  <script src="./javascript/modernizr.custom.js"></script>
+  <script src="./javascript/jquery.min.js"></script>
+  <script type="text/javascript">
+    function hasScrolled() {var l = $(this).scrollTop(); Math.abs(lastScrollTop - l) <= delta || (l > lastScrollTop && l > navbarHeight ? $("header").removeClass("nav-down").addClass("nav-up") : l + $(window).height() < $(document).height() && $("header").removeClass("nav-up").addClass("nav-down"), lastScrollTop = l)} jQuery(window).scroll(function () {0 == jQuery(this).scrollTop() ? $("header").addClass("reachedTop") : $("header").removeClass("reachedTop")}); var didScroll, lastScrollTop = 0, delta = 2, navbarHeight = $("header").outerHeight(); $(window).scroll(function (l) {didScroll = !0}), setInterval(function () {didScroll && (hasScrolled(), didScroll = !1)}, 250);
+  </script>
 </head>
 
 <body>
-	<header class="header ">
-		<div class="wrapper">
-			<div class="left">
-
-			</div>
-			<center>
-				<div class="right">
-					<ul class="menu" style="list-style: none;">
-						<li><a href="#me">about</a></li>
-						<li><a href="#projects">projects</a></li>
-						<li><a href="#myskills">skills</a></li>
-						<li><a href="#hello">youtube</a></li>
-						<li><a href="#coffeewithme">coffee with me</a></li>
-					</ul>
-				</div>
-			</center>
-		</div>
-	<section class="intro" id="intro">
-		<div class="intro-wrapper">
-			<section class="cd-intro">
-				<h1 class="headline">
-					<img src="./assets/images/plane.gif" alt="flying-chandan" class="image" />
-					<span class="title">Chandan Tiwari</span><br>
-					<span class="iama">I am</span>
-					<span class="text-slider"></span>
-					<span class="words-wrapper">
-						<b>a web developer .&nbsp;&nbsp;</b>,
-						<b>a Youtuber.</b>,
-						<b>a digital marketer.</b>,
-						<b>SEO analyst.</b>,
-						<b>a proud Indian.</b>,
-						<b>Enthuast to artificial Intelligence.</b>,
-						<b>Learning AR/VR.</b>
-					</span><br>
-				</h1>
-			</section>
-			<a href="#coffeewithme" class="btn">COFFEE WITH ME</a>
-		</div>
-	</section>
-	</header>
-	<section class="about" id="me">
-		<div class="wrapper">
-			<img src="./assets//images/chandan.jg" alt="chandan tiwari's image" class="logo">
-			<div class="icons-container">
-				<ul class="tools">
-					<li><a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" target="_blank"><i
-								class="fa fa-youtube fa-3x"></i></a></li>
-					<li><a href="https://www.instagram.com/chandan_tiwari0/" target="_blank"><i
-								class="fa fa-instagram fa-3x"></i></a></i></li>
-					<li><a href="mailto:ct61156@gmail.com" target="blank"><i class="fa fa-envelope"></i></a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="me-intro">
-			<h1>About me.</h1>
-			<p>
-				Hi I am <a href="https://youtube.com/chandantiwari" target="_blank">Chandan Tiwari</a>, a 20 year old
-				Web developer, Youtuber, and a Digital Marketer living in a <a
-					href="https://www.google.com/maps/place/Noida,+Uttar+Pradesh/@28.5166817,77.2580446,11z/data=!3m1!4b1!4m5!3m4!1s0x390ce5a43173357b:0x37ffce30c87cc03f!8m2!3d28.5355161!4d77.3910265"
-					alt="place where I live">Noida, Bharat</a>. I am a computer Science Engineering, Currently working
-				with awesome folks at X-Team
-			</p>
-			<p>
-				Have a look at my <a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ"
-					target="_blank">YouTube Channel</a>,<a href="#myskills">Skills</a> or just connect with me on <a
-					href="https://www.linkedin.com/in/chandantiwari1/" target="_blank">LinkedIn</a>. I am always excited
-				to do business with like minded people, lets discuss over
-				<a href="#coffeewithme">coffee</a>
-			</p>
-		</div>
-	</section>
-	<hr class="num">
-	<section class="numbers-wrapper">
-		<div class="nums">
-			<h4>16</h4>
-			<span>Projects Completed</span>
-		</div>
-		<div class="nums">
-			<h4>4</h4>
-			<span>of them was SEO and content writing.</span>
-		</div>
-	</section>
-	<section class="projects" id="projects">
-		<div class="projects-wrapper">
-			<h1>My YouTube Videos</h1>
-			<div class="cbp-fwslider" id="cbp-fwslider">
-				<ul>
-					<li>
-						<iframe width="853" height="480" src="https://www.youtube.com/embed/pcEW2nnrLBs"
-							title="YouTube video player" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-						<h2 class="name">Web Projects for college students</h2>
-						<p class="desc">
-							In depth MERN/MEAN projects tutorial
-						</p>
-						<a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" class="btn project">Watch
-							Videos</a>
-					</li>
-					<p class="desc">covering my personal tips and tricks</p>
-					<p class="desc">How I fell in love with javascript and become web developer!</p>
-					<h2 class="name">there are many more</h2>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section class="myskills" id="myskills">
-		<div class="skills-wrapper">
-			<h1>Skills</h1>
-			<div class="downloadCV">
-				<p>
-					Download my Resume
-				</p>
-				<img src="resume.pdf" alt="resume" onclick="changeImage()">
-			</div>
-		</div>
-	</section>
-	<section class="quotes" id="quotes">
-		<div class="quotes-wrapper">
-			<h1>Inspiring Quotes.</h1>
-			<p>
-			</p>
-			<div class="cbp-fwslider">
-				<ul>
-					<li>
-						<img src="./assets//others/steve-jobs.jpg" alt="steve-jobs" />
-						<h2 class="quoelines">"Because thepeople who are crazy enough to think they can <br>
-							change the world are the ones whodo."</h2>
-						<p class="desc">
-							by <b>Steve Jobs</b>
-						</p>
-					</li>
-					<li>
-						<img src="./assets//others//bill-gates.jpg" alt="bill-gates" class="quotes_img" />
-						<h2 class="quotelines"> "Success is a lousy teacher. It reduces smart people intro <br> thinking
-							they can't lose."</h2>
-						<p class="desc">
-							by <b>Bill Gates</b>
-						</p>
-					</li>
-					<li>
-						<img src="./assets//others/linus-torvalds.jpg" alt="" class="quotes_img" />
-						<h2 class="quotelines"> "See, you not only have to be a good coder to create system <br> like
-							Linux, you have to be a sneaky bastard too."</h2>
-						<p class="desc">
-							by <b>Linus Torvalds</b>
-						</p>
-					</li>
-					<li>
-						<img src="./assets/others/larry-page.jpg" alt="" class="quotes_img" />
-						<h2 class="quotolines">" If you're changing the world, you're working on important things. <br>
-							You're excited to get up in the morning "</h2>
-						<p class="desc">
-							by <b>Larry Page</b>
-						</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section class="coffeewithme" id="coffeewithme">
-		<div class="coffeewrapper">
-			<h1>Coffee with me.</h1>
-			<p>I am always excited to work on some awesome projects, message me and let's discuss over coffee.</p>
-			<form action="" id="simform" autocomplete="off" class="simform">
-				<div class="simform-inner">
-					<ol class="questions">
-						<li>
-							<span>
-								<label for="q1">Write a message for me below</label>
-							</span>
-							<input type="text" id="q1" name="q1">
-						</li>
-						<li>
-							<span>
-								<label for="q2">Your name</label>
-							</span>
-							<input type="text" id="q2" name="q2">
-						</li>
-						<li>
-							<span><label for="q3">Your email or phone number</label></span>
-							<input type="text" id="q3" name="q3" />
-						</li>
-					</ol>
-				</div>
-				<button class="submit" type="submit"> Send Your Love</button>
-				<div class="controls">
-					<button class="next"><i class="fa fa-arrow-right"></i></button>
-					<div class="progr">
-					</div>
-					<span class="number">
-						<span class="number-current"></span>
-						<span class="number-total"></span>
-					</span>
-					<span class="error-message"></span>
-				</div>
-				<span class="final-message"></span>
-			</form>
-		</div>
-	</section>
-	<section class="sayhello" id="hello">
-		<div class="hello-wrapper">
-			<p>
-				<b>No <i class="fa fa-copyright"></i>copyright issues.</b><br>
-				Feel free to copy and download the code from <a href="https://github.com/chandantiwari1">Git Hub</a>
-				need help ping love.
-			</p>
-			<p class="foottitle">
-				Chandan iwari
-			</p>
-			<p class="madewithlove">
-				Made with <i class="fa fa-heart"></i>
-			</p>
-			<div class="finding">
-				<p class="aligncntr">
-					you can find me anywhere.
-				</p>
-				<ul class="tools">
-					<li><a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ"><i
-								class="fa fa-youtube"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/chandantiwari1/"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="https://twitter.com/chandantiwari02"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://www.instagram.com/chandan_tiwari0/"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="https://github.com/chandantiwari1"><i class="fa fa-github"></i></a></li>
-				</ul>
-			</div>
-		</div>
-		<img src="./assets//others/foot.jpg" alt="indian heritage img" />
-	</section>
-	<script src="./javascript/type.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-	</script>
-	<script>
-		if ($(".text-slider").length == 1) {
-
-			var typed_strings =
-				$(".words-wrapper").text();
-
-			var typed = new Typed(".text-slider", {
-				strings:typed_strings.split(","),
-				typeSpeed: 50,
-				loop: true,
-				backDelay: 900,
-				backSpeed: 30,
-		
-			});
-		}
-	</script>
+  <header class="nav-down reachedTop">
+    <div class="wrapper" id="wrapper">
+      <div class="row">
+        <div class="small-12 large-12 columns alignCenter">
+          <ul class="menu">
+            <li><a href="#me">about</a></li>
+            <li><a href="#myskills">skills</a></li>
+            <li><a href="#projects">youtube</a></li>
+            <li><a href="#coffeewithme">coffee with me</a></li>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="intro" id="intro">
+    <div class="row" id="middle_row">
+      <div class="medium-12 columns alignCenter">
+        <section class="cd-intro">
+          <h1 class="cd-headline clip is-full-width">
+            <img src="./assets/images/plane.gif"><br>
+            <span class="title">Chandan Tiwari</span><br>
+            <span class="iama">I am </span>
+            <span class="cd-words-wrapper">
+              <b class="is-visible">a web developer.&nbsp;&nbsp;</b>
+              <b>a YouTuber.</b>
+              <b>a digital marketer.</b>
+              <b>an SEO analyst.</b>
+              <b>a proud Indian.</b>
+            </span><br>
+          </h1>
+        </section>
+        <a href="#coffeewithme" class="btn"> Coffee with me</a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="me">
+    <div class="row">
+      <div class="large-12 medium-12 columns">
+        <div class="large-4 medium-4 columns">
+          <img class="logo" src="./assets/images/chandan.jpg">
+          <div class="medium-12 columns">
+            <ul class="tools">
+              <li><a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" target="_blank">Youtube</a></li>
+              <li><a href="https://www.facebook.com/" target="_blank">Facebook:</a></li>
+              <li><a href="https://in.linkedin.com/in/chandantiwari1" target="_blank">LinkedIn:</a></li>
+              <li><a href="mailto:ct61156@gmail.com" target="_blank">Mail to:</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="large-8 medium-8 columns">
+          <h1>About me.</h1>
+          <p>
+            Hi I am <a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" target="_blank">Chandan Tiwari</a>, a 20 year old Web
+            developer, YouTuber, and a Digital Marketer living in <a href="https://www.google.com/search?q=noida+google+maps&oq=noida+google+maps&aqs=chrome..69i57j0i22i30l5j0i10i22i30.4712j0j7&sourceid=chrome&ie=UTF-8#"
+              target="_blank">Hyderabad, India</a>. I am a Computer Science Engineering student, currently working with awesome
+            folks at <a href="" rel="nofollow" target="_blank"></a>.
+          </p>
+          <p>
+            Have a look at my <a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" target="_blank">YouTube Channel</a>, <a
+              href="#myskills">skills</a> or just connect with me on <a href="https://in.linkedin.com/in/chandantiwari1"
+              target="_blank">LinkedIn</a>. I am always excited to work with like minded people, lets discuss
+            over <a href="#coffeewithme">coffee</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="num">
+  <section class="numbers-wrapper">
+    <section class="numbers-inner-wrapper">
+      <div class="numbers">
+        <h4 id="coded-lines">160 0</h4>
+        <span>lines of code</span>
+      </div>
+      <div class="numbers">
+        <h4 id="rendered-pixels">301 783 </h4>
+        <span>pixels rendered</span>
+      </div>
+      <div class="numbers">
+        <h4 id="coffee-cups">1</h4>
+        <span>cups of coffee drunk</span>
+      </div>
+      <div class="numbers">
+        <h4 id="projects-completed">6</h4>
+        <span>projects completed</span>
+      </div>
+    </section>
+  </section>
+  <section class="projects" id="projects">
+    <div class="row alignCenter">
+      <h1>My Youtube Videos</h1>
+      <div id="cbp-fwslider" class="cbp-fwslider">
+        <ul>
+          <li>
+            <iframe width="400" height="225" src="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="name">jalebi-webdev</h2>
+            <p class="desc">
+              In depth mern and mean stack tutorials!
+            </p>
+            <a class="btn project" href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ">Watch Video</a>
+          </li>
+          <li>
+            <iframe width="400" height="225" src="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="name">How to become a Web Developer</h2>
+            <p class="desc">
+              Covering my personal tips and tricks!
+            </p>
+            <a class="btn project" href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ">Watch Video</a>
+          </li>
+          <li>
+            <iframe width="400" height="225" src="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="name">My Journey</h2>
+            <p class="desc">
+              How I fell in love with Javascript and ended up being a Web Developer!
+            </p>
+            <a class="btn project" href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ">Watch Video</a>
+          </li>
+          <li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="name">There are many more !</h2>
+            <p class="desc">
+              Check out all the videos on my Youtube Channel
+            </p>
+            <a class="btn project" href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" target="_blank">Visit now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="myskills" id="myskills">
+    <div class="row alignCenter">
+      <h1>Skills.</h1>
+      <div class="skills">
+      </div>
+      <div class="downloadCV">
+        <p>
+          Download my Resume
+        </p>
+        <img class="resume" onclick="changeImage()" src="./assets/others/My-Resume - Google Docs.pdf">
+      </div>
+    </div>
+  </section>
+  <section class="quotes" id="quotes">
+    <div class="row alignCenter">
+      <h1>Inspiring Quotes.</h1>
+      <p>
+      </p>
+      <div id="quote-slider" class="cbp-fwslider">
+        <ul>
+          <li>
+            <img class="quotes_img" src="./assets/others/steve-jobs.jpg" alt="Steve Jobs" />
+            <h2 class="quotelines">" Because the people who are crazy enough to think they can<br>
+              change the world are the ones who do. "</h2>
+            <p class="desc">
+              by <b>Steve Jobs</b>
+            </p>
+          </li>
+          <li>
+            <img class="quotes_img" src="./assets/others/bill-gates.jpg" alt="Bill Gates" />
+            <h2 class="quotelines">" Success is a lousy teacher. It seduces smart people into<br>
+              thinking they can't lose. "</h2>
+            <p class="desc">
+              by <b>Bill Gates</b>
+            </p>
+          </li>
+          <li>
+            <img class="quotes_img" src="./assets/others/linus-torvalds.jpg" alt="Linus Torvalds" />
+            <h2 class="quotelines">" See, you not only have to be a good coder to create system<br>
+              like Linux, you have to be a sneaky bastard too. "</h2>
+            <p class="desc">
+              by <b>Linus Torvalds</b>
+            </p>
+          </li>
+          <li>
+            <img class="quotes_img" src="./assets/others/larry-page.jpg" alt="Larry Page" />
+            <h2 class="quotelines">" If you're changing the world, you're working on important things.<br>
+              You're excited to get up in the morning. "</h2>
+            <p class="desc">
+              by <b>Larry Page</b>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="coffeewithme" id="coffeewithme">
+    <div class="row alignCenter">
+      <h1>Coffee with me.</h1>
+      <p>
+        I am always excited to work on some awesome projects, message me and let's discuss over coffee.
+      </p>
+      <form id="theForm" class="simform" autocomplete="off">
+        <div class="simform-inner">
+          <ol class="questions">
+            <li>
+              <span><label for="q1">Write a message for me below</label></span>
+              <input id="q1" name="q1" type="text" />
+            </li>
+            <li>
+              <span><label for="q2">Your name</label></span>
+              <input id="q2" name="q2" type="text" />
+            </li>
+            <li>
+              <span><label for="q3">Your email or phone number</label></span>
+              <input id="q3" name="q3" type="text" />
+            </li>
+          </ol>
+          <!-- /questions -->
+          <button class="submit" type="submit">Send answers</button>
+          <div class="controls">
+            <button class="next"><i class="fa fa-arrow-right"></i></button>
+            <div class="progress">
+            </div>
+            <span class="number">
+              <span class="number-current"></span>
+              <span class="number-total"></span>
+            </span>
+            <span class="error-message"></span>
+          </div>
+          <!-- / controls -->
+        </div>
+        <!-- /simform-inner -->
+        <span class="final-message"></span>
+      </form>
+      <!-- /simform -->
+    </div>
+  </section>
+  <section class="sayhello" id="hello">
+    <div class="row">
+      <div class="large-4 columns pad10">
+      </div>
+      <div class="large-4 columns">
+        <p class="footTitle alignCenter">
+          Chandan Tiwari
+        </p>
+        <p class="madewithlove">
+          Made with <i class="fa fa-heart"></i> in India
+        </p>
+      </div>
+      <div class="large-4 columns alignCenter pad10">
+        <p class="alignCenter">
+          You can find me everywhere
+        </p>
+        <ul class="tools">
+          <li><a href="https://www.youtube.com/channel/UCDMBKEXGthXWUir16fhI5wQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="https://in.linkedin.com/in/chandantiwari1" target="_blank">
+			<i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="mailto:ct61156@gmail.com" target="_blank">Mail t0:</i></a></li>
+        </ul>
+      </div>
+    </div>
+    <img class="footer-image" src="./assets/others/foot.jpg">
+  </section>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./javascript/classie.js"></script>
+  <script src="./javascript/stepsForm.js"></script>
+  <script src="./javascript/jquery.animateNumber.min.js"></script>
+  <script src="./javascript/jquery.cbpFWSlider.min.js"></script>
+  <script>
+    $(function () {
+      $('#cbp-fwslider').cbpFWSlider();
+      $('#quote-slider').cbpFWSlider();
+      setInterval(function () {
+        if ($('.cbp-fwnext').eq(1).is(":visible")) {
+          $('.cbp-fwnext').eq(1).click();
+        }
+        else {
+          $('.cbp-fwdots').eq(1).find('span').click();
+        }
+      }, 6000);
+    });
+  </script>
+  <script type="text/javascript" src="./javascript/jquery.easing.1.3.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('header a').bind('click', function (event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+      });
+    });
+    $(function () {
+      $('#intro a').bind('click', function (event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+      });
+    });
+  </script>
+  <script src="./javascript/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="./javascript/textRotate.js"></script>
+  <script type="text/javascript">
+    var sc_project = 11086857;
+    var sc_invisible = 1;
+    var sc_security = "58e9ef84";
+    var scJsHost = (("https:" == document.location.protocol) ?
+      "https://secure." : "http://www.");
+    document.write("<sc" + "ript type='text/javascript' src='" +
+      scJsHost +
+      "statcounter.com/counter/counter.js'></" + "script>");
+  </script>
+  <noscript>
+    <div class="statcounter"><a title="create counter" href="http://statcounter.com/free-hit-counter/"
+        target="_blank"><img class="statcounter" src="//c.statcounter.com/11086857/0/58e9ef84/1/" alt="create
+counter"></a></div>
+  </noscript>
+  <script>
+    
+  </script>
 </body>
 
 </html>
